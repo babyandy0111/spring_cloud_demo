@@ -1,0 +1,18 @@
+server:
+  port: 80
+# Spring properties
+spring:
+  application:
+    name: eureka-consumer #服務名稱
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka-server-1.com:8001/eureka/,http://eureka-server-2.com:8002/eureka/,http://eureka-server-3.com:8003/eureka/
+    enabled: true
+  instance:
+    prefer-ip-address: true
+    instance-id: eureka-consumer-1
+feign:
+ hystrix:
+   enabled: true #很重要, hystrix要打開不然會有問題

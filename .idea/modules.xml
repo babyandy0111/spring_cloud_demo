@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaProject.iml" filepath="$PROJECT_DIR$/.idea/JavaProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/dashboard/dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer-80/eureka-consumer-1.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer-80/eureka-consumer-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-provider/eureka-provider-7001/eureka-provider-1.iml" filepath="$PROJECT_DIR$/eureka-provider/eureka-provider-7001/eureka-provider-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-provider/eureka-provider-7002/eureka-provider-2.iml" filepath="$PROJECT_DIR$/eureka-provider/eureka-provider-7002/eureka-provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-provider/eureka-provider-7003/eureka-provider-3.iml" filepath="$PROJECT_DIR$/eureka-provider/eureka-provider-7003/eureka-provider-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server-8001/eureka-server-1.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server-8001/eureka-server-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server-8002/eureka-server-2.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server-8002/eureka-server-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server-8003/eureka-server-3.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server-8003/eureka-server-3.iml" />
+    </modules>
+  </component>
+</project>

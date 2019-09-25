@@ -1,0 +1,37 @@
+# Spring properties
+spring:
+  application:
+    name: eureka-provider #服務名稱
+  datasource:
+    name: shihjiecom
+    url: jdbc:mysql://127.0.0.1:3306/shihjiecom?useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+eureka:
+  instance:
+    instance-id: eureka-provider-3
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server-1.com:8001/eureka/,http://eureka-server-2.com:8002/eureka/,http://eureka-server-3.com:8003/eureka/
+# HTTP Server
+server:
+  port: 7003   # HTTP (Tomcat) port #服務的:
+mybatis:
+  mapper-locations: classpath*:com/example/demo/**/*Mapper.xml
+info:
+  app:
+    name: $project.artifactId$
+    encoding: $project.build.sourceEncoding$
+    java:
+      source: $java.version$
+      target: $java.version$
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    hystrix:
+      stream:
+        enabled: true
